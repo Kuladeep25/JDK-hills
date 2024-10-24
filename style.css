@@ -1,0 +1,83 @@
+{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: sans-serif ;
+}
+    
+.section-1{
+    background-image: url(image/banner.jpeg);
+    height: 100vh;
+    width: 100%;
+    background:seashell;
+    padding: 20px 100px;
+}
+.section-1 nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.section-1 nav.logo{
+    font-size:32px;
+}
+.section-1 nav .logo .dot{
+    color: burlywood;
+    font-size:45px;
+}
+.section-1 nav u1 li{
+    List-style: none;
+    display:inline-block;
+    padding:10px 30px;
+}
+.section-1 nav u1 li{
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+}
+.section-1 nav u1 li a:hover{
+    color:skyblue;
+}
+.section-1 nav u1 li .log-in{
+    color:skyblue;
+}
+.section-1 nav u1 li .btn-1{
+    border: 1px solid skyblue;
+    color:skyblue;
+    padding:9px 15px;
+}
+.section-1 nav u1 li .btn-1:hover{
+    color: mediumaquamarine;
+    background: skyblue;  
+}
+.section-1 .container-1{
+    display: flex;
+    justify-content: space-between;
+}
+.section-1 .container-1 .contains-1{
+    margin-top: 80px;
+    position: absolute;
+}
+.section-1 .container-1 .contains-1 h1{
+    font-size: 60px;
+}
+.section-1 .container-1 .contains-1 .btn-2{
+    padding: 20px 0;
+    margin-top: 20px;
+}
+.section-1 .container-1 .contains-1 .btn-2 a{
+    color: mediumaquamarine;
+background: skyblue;
+padding: 12px 20px;
+}
+.section-1 .container-1 .contains-1 .btn-2 a:hover{
+    color:mediumaquamarine;
+    border: 1px solid skyblue;
+    background: transparent;
+}
+.section-1 .container-1 .contains-2 img{
+    width: 780px;
+    transform: translate(350px,0px);
+    overflow: hidden;
+
+}
